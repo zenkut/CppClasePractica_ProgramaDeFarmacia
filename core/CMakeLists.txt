@@ -8,6 +8,9 @@ add_executable (FarmaciaSA
   include/Medicamento.hpp
   include/Proveedor.hpp
   include/Sexo.hpp
+  include/Receta.hpp
+  include/Recibo.hpp
+  include/Farmaceutico.hpp
   src/Sexo.cpp
   include/TipoMedicamento.hpp
   src/TipoMedicamento.cpp)
