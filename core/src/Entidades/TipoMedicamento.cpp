@@ -1,4 +1,4 @@
-#include "../include/TipoMedicamento.hpp"
+#include "../../include/Entidades/TipoMedicamento.hpp"
 
 namespace Farmacia::Entidades 
 {

@@ -1,5 +1,6 @@
 #ifndef __PROVEEDOR_HPP__
 #define __PROVEEDOR_HPP__
+
 #include "Tipos.hpp"
 
 namespace Farmacia::Entidades 

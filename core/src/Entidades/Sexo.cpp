@@ -1,4 +1,4 @@
-#include "../include/Sexo.hpp"
+#include "../../include/Entidades/Sexo.hpp"
 
 namespace Farmacia::Entidades 
 {
