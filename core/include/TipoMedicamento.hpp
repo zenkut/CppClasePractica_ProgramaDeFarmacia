@@ -8,8 +8,12 @@ namespace Farmacia::Entidades
   enum class [[nodiscard]] TipoMedicamento
   {
     Analgesico,
-    Vitamina, 
-    Antibiotico,
+    AntiacidoyAntiulceroso, 
+    Antialergico,
+    AntidiarreicoyLaxante,
+    Antiinflamatorio,
+    Antipiretico,
+    AntitusivoyMucolitico
   };
 
   [[nodiscard]] std::string_view to_string(TipoMedicamento tipo_medicamento) noexcept;
