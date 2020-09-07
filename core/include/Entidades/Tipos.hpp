@@ -1,5 +1,5 @@
-#ifndef __TIPOS_HPP__
-#define __TIPOS_HPP__
+#ifndef __ENTIDADES_TIPOS_HPP__
+#define __ENTIDADES_TIPOS_HPP__
 
 #include <array>
 
@@ -11,4 +11,4 @@ namespace Farmacia
 
 } // namespace Farmacia
 
-#endif // !__TIPOS_HPP__
+#endif // !__ENTIDADES_TIPOS_HPP__

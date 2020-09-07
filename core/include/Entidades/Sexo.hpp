@@ -1,5 +1,5 @@
-#ifndef __SEXO_HPP__
-#define __SEXO_HPP__
+#ifndef __ENTIDADES_SEXO_HPP__
+#define __ENTIDADES_SEXO_HPP__
 
 #include <string_view>
 
@@ -14,4 +14,4 @@ namespace Farmacia::Entidades
   [[nodiscard]] std::string_view to_string(Sexo sexo) noexcept;
 }
 
-#endif // !__SEXO_HPP__
+#endif // !__ENTIDADES_SEXO_HPP__

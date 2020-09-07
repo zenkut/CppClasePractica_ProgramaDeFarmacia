@@ -1,5 +1,5 @@
-#ifndef __FARMACEUTICO_HPP__
-#define __FARMACEUTICO_HPP__
+#ifndef __ENTIDADES_FARMACEUTICO_HPP__
+#define __ENTIDADES_FARMACEUTICO_HPP__
 
 #include "Tipos.hpp"
 #include "Sexo.hpp"
@@ -20,4 +20,4 @@ namespace Farmacia::Entidades
   };
 }
 
-#endif //!__FARMACEUTICO_HPP__
+#endif //!__ENTIDADES_FARMACEUTICO_HPP__

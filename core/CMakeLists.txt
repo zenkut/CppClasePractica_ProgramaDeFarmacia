@@ -11,7 +11,11 @@ add_executable (FarmaciaSA
   include/Entidades/Receta.hpp
   include/Entidades/Recibo.hpp
   include/Entidades/Farmaceutico.hpp
-  src/Entidades/Sexo.cpp
   include/Entidades/TipoMedicamento.hpp
+  src/Entidades/Sexo.cpp
   src/Entidades/TipoMedicamento.cpp
-  include/Repositorios/MedicamentoRepositorio.hpp)
+  include/Repositorios/Medicamento.hpp
+  include/Repositorios/Repositorio.hpp
+  include/Iteradores/Iterador.hpp
+  include/Iteradores/Medicamento.hpp)
+

@@ -1,5 +1,5 @@
-#ifndef __MEDICAMENTO_HPP__
-#define __MEDICAMENTO_HPP__
+#ifndef __ENTIDADES_MEDICAMENTO_HPP__
+#define __ENTIDADES_MEDICAMENTO_HPP__
 
 #include "Tipos.hpp"
 #include "TipoMedicamento.hpp"
@@ -17,4 +17,4 @@ namespace Farmacia::Entidades
   };
 }
 
-#endif // !__MEDICAMENTO_HPP__
+#endif // !__ENTIDADES_MEDICAMENTO_HPP__

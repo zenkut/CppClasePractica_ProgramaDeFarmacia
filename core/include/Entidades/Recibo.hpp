@@ -1,5 +1,5 @@
-#ifndef __RECIBO_HPP__
-#define __RECIBO_HPP__
+#ifndef __ENTIDADES_RECIBO_HPP__
+#define __ENTIDADES_RECIBO_HPP__
 
 #include "Tipos.hpp"
 #include "Medicamento.hpp"
@@ -16,4 +16,4 @@ namespace Farmacia::Entidades
   };
 }
 
-#endif //!__RECIBO_HPP__
+#endif //!__ENTIDADES_RECIBO_HPP__

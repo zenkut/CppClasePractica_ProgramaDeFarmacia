@@ -1,7 +1,7 @@
 #include <iostream>
 #include <iomanip>
 #include "include/Entidades/TipoMedicamento.hpp"
-#include "include/Repositorios/MedicamentoRepositorio.hpp"
+#include "include/Repositorios/Medicamento.hpp"
 #include "include/Entidades/Medicamento.hpp"
 
 using namespace Farmacia;
@@ -11,8 +11,8 @@ using namespace Repositorios;
 int main()
 {
     using ctraits = std::char_traits<char>;
-    MedicamentoRepositorio repositorio;
-    
+    Repositorio<Medicamento> repositorio;
+
     Medicamento medicamento;
     ctraits::copy(medicamento.Codigo.data(), "123456", 6);
     ctraits::copy(medicamento.Nombre.data(), "Denis", 5);
@@ -20,7 +20,7 @@ int main()
     medicamento.Stock  = 1;
     medicamento.Tipo   = TipoMedicamento::Antialergico;
 
-    repositorio.Guardar(medicamento);
+    repositorio.push_back(medicamento);
 
     for (const auto &m : repositorio)
     {
@@ -29,6 +29,7 @@ int main()
         std::cout << "Precio: " << std::fixed << std::setprecision(2) << m.Precio << "\n";
         std::cout << "Stock:  " << m.Stock << "\n";
         std::cout << "Tipo:   " << to_string(m.Tipo) << "\n";
+        std::cout << "------------------------------------\n\n";
     }
 
     return 0;

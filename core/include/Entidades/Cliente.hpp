@@ -1,5 +1,5 @@
-#ifndef __CLIENTE_HPP__
-#define __CLIENTE_HPP__
+#ifndef __ENTIDADES_CLIENTE_HPP__
+#define __ENTIDADES_CLIENTE_HPP__
 
 #include "Tipos.hpp"
 #include "Sexo.hpp"
@@ -19,4 +19,4 @@ namespace Farmacia::Entidades
   };
 }
 
-#endif //!__CLIENTE_HPP__
+#endif //!__ENTIDADES_CLIENTE_HPP__

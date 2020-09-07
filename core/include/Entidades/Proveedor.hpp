@@ -1,5 +1,5 @@
-#ifndef __PROVEEDOR_HPP__
-#define __PROVEEDOR_HPP__
+#ifndef __ENTIDADES_PROVEEDOR_HPP__
+#define __ENTIDADES_PROVEEDOR_HPP__
 
 #include "Tipos.hpp"
 
@@ -16,4 +16,4 @@ namespace Farmacia::Entidades
   };
 }
 
-#endif //!__PROVEEDOR_HPP__
+#endif //!__ENTIDADES_PROVEEDOR_HPP__
